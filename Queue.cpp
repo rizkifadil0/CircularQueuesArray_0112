@@ -125,7 +125,7 @@ int main() {
     {
         try 
         {
-            cout << "Menu" << endl;
+            cout << "============Menu=============" << endl;
             cout << "1. Implement insert operatiopn" << endl;
             cout << "2. Implement delete operatiopn" << endl;
             cout << "3. Display values" << endl;
