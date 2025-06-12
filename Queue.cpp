@@ -128,6 +128,7 @@ int main() {
             cout << "2. Implement delete operatiopn" << endl;
             cout << "3. Display values" << endl;
             cout << "4. Exit" << endl;
+            cin >> ch;
 
             switch(ch)
             {
