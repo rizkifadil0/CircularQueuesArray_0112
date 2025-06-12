@@ -7,7 +7,6 @@ class Queues{
         static const int max = 5;
         int FRONT, REAR;
         int queue_array[5];
-
     public:
         Queues()
         {
@@ -44,7 +43,6 @@ class Queues{
             }
             queue_array[REAR] = num;
         }
-
         void remove()
         {
             //Cek apakaah antrian kosong 
@@ -71,7 +69,6 @@ class Queues{
                 FRONT = FRONT + 1;
             }
         }
-
         void display()
         {
             int FRONT_position = FRONT;
